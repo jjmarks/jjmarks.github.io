@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <Nuxt />
+  <div class="absolute w-full md:px-2 min-h-screen flex justify-center items-center">
+    <div class="w-full">
+        <Header />
+        <Nuxt />
+        <!-- <Footer /> -->
+    </div>
   </div>
 </template>
 
@@ -22,6 +26,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: rgb(46, 46, 46);
 }
 
 *,
