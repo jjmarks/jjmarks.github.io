@@ -1,25 +1,10 @@
 <template>
-  <div>
-    <client-only>
-      <Particles
-        color="#dedede"
-        :particles-number="100"
-        shape-type="circle"
-        :particle-size="3"
-        movement-direction="top"
-        lines-color="#dedede"
-        :linesDistance="150"
-        :line-linked="true"
-        :move-speed="0.5"
-      />
-    </client-only>
-      <div class="absolute w-full md:px-2 min-h-screen flex justify-center items-center">
-        <div class="w-full">
-            <Header />
-            <Nuxt />
-            <!-- <Footer /> -->
-        </div>
-      </div>
+  <div class="absolute w-full md:px-2 min-h-screen flex justify-center items-center">
+    <div class="w-full">
+        <Header />
+        <Nuxt />
+        <!-- <Footer /> -->
+    </div>
   </div>
 </template>
 
@@ -42,18 +27,6 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   background-color: rgb(46, 46, 46);
-}
-
-div[id^="particles-instance-"] {
-  height: 100vh !important;
-  width: 100vw !important;
-  position: fixed !important;
-  top: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow: hidden !important;
-  background: rgba($color: #05114e, $alpha: 0.4);
-  z-index: 0 !important;
 }
 
 *,
