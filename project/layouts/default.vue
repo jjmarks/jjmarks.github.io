@@ -1,6 +1,8 @@
 <template>
   <div class="absolute w-full md:px-2 min-h-screen flex justify-center items-center">
-    <particles-bg type="cobweb" color="#ffffff" :bg="true" />
+    <client-only>
+      <particles-bg type="cobweb" color="#ffffff" :bg="true" />
+    </client-only>
     <div class="w-full">
       <Header />
       <Nuxt />
