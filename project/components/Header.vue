@@ -23,6 +23,7 @@
               <a
                 href="https://www.linkedin.com/in/josephjmarks/"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+                target="_blank"
                 >LinkedIn</a
               >
             </li>
@@ -30,6 +31,7 @@
               <a
                 href="https://www.twitter.com/MrJMarks"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+                target="_blank"
                 >Twitter</a
               >
             </li>
@@ -37,6 +39,7 @@
               <a
                 href="https://goodreads.com/jjmarks"
                 class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
+                target="_blank"
                 >Goodreads</a
               >
             </li>
