@@ -1,9 +1,10 @@
 <template>
   <div class="absolute w-full md:px-2 min-h-screen flex justify-center items-center">
+    <particles-bg type="cobweb" color="#ffffff" :bg="true" />
     <div class="w-full">
-        <Header />
-        <Nuxt />
-        <!-- <Footer /> -->
+      <Header />
+      <Nuxt />
+      <!-- <Footer /> -->
     </div>
   </div>
 </template>

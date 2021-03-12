@@ -15,7 +15,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: "J Marks Home",
+    title: 'J Marks Home',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -35,6 +35,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '~/plugins/VueParticlesBg.js', mode: 'client' } // only on client side
   ],
   /*
   ** Auto import components
@@ -75,5 +76,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    transpile: ['VueParticlesBg']
+
   }
 }
