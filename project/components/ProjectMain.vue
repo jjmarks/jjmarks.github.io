@@ -1,6 +1,11 @@
 <template>
-  <div class="h-full rounded-lg bg-gray-900 bg-opacity-50 text-gray-100 text-lg justify-center flex w-full px-10 py-10">
-    Projects coming soon.
+  <div class="h-full rounded-lg bg-gray-900 bg-opacity-75 text-gray-100 text-lg justify-center flex w-full px-10 py-10">
+    <div class="flex items-center h-full">
+      <div class="space-y-2">
+        <p>Current: Black-Scholes Pricing Engine (Fortran)</p>
+        <p>Past: -</p>
+      </div>
+    </div>
   </div>
 </template>
 

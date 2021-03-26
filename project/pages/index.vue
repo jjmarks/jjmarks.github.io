@@ -1,7 +1,7 @@
 <template>
   <div class="items-center flex container mx-auto w-full">
     <div class="w-full">
-      <div class="w-5/6 flex mx-auto h-30">
+      <div class="w-5/6 flex mx-auto h-48">
         <LandingMain />
       </div>
     </div>
