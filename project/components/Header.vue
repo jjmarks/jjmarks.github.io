@@ -9,7 +9,7 @@
         <div class="w-full md:w-1/4 px-4 mt-2">
           <ul class="flex flex-wrap list-none md:justify-start justify-center">
             <li>
-              <div class="rounded-lg bg-gray-900 bg-opacity-50">
+              <div class="rounded-lg bg-gray-900 bg-opacity-50 px-2">
                 <NuxtLink
                   to="/"
                   class="text-gray-200 hover:text-gray-400 text-2xl font-semibold py-1"
