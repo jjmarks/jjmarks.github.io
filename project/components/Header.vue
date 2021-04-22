@@ -75,12 +75,11 @@
             </li>
             <li>
               <div class="rounded-lg bg-gray-900 bg-opacity-50">
-                <NuxtLink
-                  to="/resume"
+                <a
+                  href="https://cloud.jmarks.net/s/4rtKrRRkgByYSxL"
                   class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
-                >
-                  CV
-                </NuxtLink>
+                  target="_blank"
+                >CV</a>
               </div>
             </li>
           </ul>
