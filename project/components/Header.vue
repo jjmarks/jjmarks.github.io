@@ -76,7 +76,7 @@
             <li>
               <div class="rounded-lg bg-gray-900 bg-opacity-50">
                 <a
-                  href="https://cloud.jmarks.net/s/4rtKrRRkgByYSxL"
+                  href="https://cloud.jmarks.net/s/9bMGg3Gn4j6tdoC"
                   class="text-gray-200 hover:text-gray-400 text font-semibold py-1 px-3"
                   target="_blank"
                 >CV</a>
